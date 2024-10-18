@@ -11,7 +11,7 @@ def q1(limite, numero):  # Limite para quantos números terá na lista, número 
     return print(f"{sequencia}\n{numero} não está na sequência")
 
 def q2(s):
-    if isinstance(s, str) and s.isalpha(): #Verificar se é caracterio válido
+    if isinstance(s, str) and s.isalpha(): #Verificar se é caracter válido
 
         contador = {
             "a": 0, "A": 0
